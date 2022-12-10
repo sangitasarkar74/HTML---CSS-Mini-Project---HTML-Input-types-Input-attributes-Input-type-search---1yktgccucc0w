@@ -5,7 +5,6 @@ html {
 }
 
 .header-class {
-    /* width: 100vw; */
     height: 50px;
     background-color: rgb(11, 41, 66);
     color: white;
@@ -13,99 +12,107 @@ html {
     padding-top: 20px;
 }
 
+#visit {
+    color: white;
+}
+
 .section1 {
-    /* width: 100vw; */
     display: flex;
     justify-content: space-between;
     height: 60px;
     line-height: 60px;
-    /* background-color: rgb(234, 234, 240); */
     background: linear-gradient(30deg, #192e47, rgb(113, 134, 151));
-    /* border: 1px solid rgb(99, 99, 241); */
-    /* border-bottom: 1px solid rgb(197, 197, 238); */
     font-size: 25px;
     color: rgb(247, 246, 248);
     padding-top: 10px;
-    padding-left: 20px;
+    padding-left: 120px;
     padding-bottom: 10px;
+}
 
+.logo {
+    color: red;
+    font-size: 30px;
 }
 
 .section1-part {
     width: 800px;
     display: flex;
     justify-content: space-around;
-
-    font-size: 15px;
+    font-size: 18px;
     height: 60px;
     line-height: 60px;
-
-
+    cursor: pointer;
 }
 
 .flex-container {
     display: flex;
     justify-content: space-between;
-    /* width: 100vw; */
     height: 70px;
     line-height: 70px;
-    background-color: rgb(234, 234, 240);
-    border-bottom: 1px solid rgb(173, 173, 241);
+    background: linear-gradient(30deg, #353f53, rgb(104, 129, 150));
+}
+
+.flex-container button {
+    background-color: rgb(78, 103, 131);
+    cursor: pointer;
+    border: none;
+    color: white;
+    font-size: 20px;
+}
+
+.flex-container button:hover {
+    box-shadow: 2px 2px 10px #302d2c;
+
+}
+
+.select-buttons {
+    background-color: rgb(78, 103, 131);
+    width: 200px;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    border: none;
 }
 
 .item1 {
     width: 200px;
     text-align: center;
-    margin-left: 25px;
-    background-color: rgb(213, 219, 219);
-
-
+    margin-left: 30px;
 }
 
 .item2 {
     display: flex;
     justify-content: space-evenly;
-    width: 400px;
+    width: 300px;
     margin-right: 25px;
     text-align: center;
-
-}
-
-.div1 {
-    width: 180px;
-    background-color: rgb(213, 219, 219);
-    /* border-radius: 8px; */
 }
 
 .main {
-    /* background-color: rgb(152, 167, 167); */
+    background-color: rgb(203, 212, 212);
+    border-radius: 11px;
     width: 1230px;
-    height: 1000px;
+    height: 900px;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
     display: grid;
     grid-template-columns: auto auto auto;
     padding: 40px;
+    justify-items: center;
 }
 
 .grid-item {
-    /* display: flex;
-    flex-direction: column; */
-    /* background-color: rgb(123, 59, 151); */
     font-size: 50px;
     width: 350px;
-    height: 400px
+    height: 400px;
 }
 
 .grid-part1 {
-
     background-color: rgb(228, 235, 241);
     height: 250px;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
-
-
 }
 
 .grid-part2 {
@@ -131,10 +138,7 @@ html {
 .grid-part1 img {
     height: 240px;
     width: auto;
-    /* margin: auto; */
-    /* margin-left: 30px; */
-    /* margin-top: 30px; */
-    margin-left: 10px;
+    /* margin-left: 10px; */
     padding: auto;
 
 }
@@ -142,18 +146,9 @@ html {
 .grid-part1 img:hover {
     box-shadow: 2px 2px 10px #302d2c;
     cursor: pointer;
-}
-
-.flex-container button {
-    background: linear-gradient(45deg, rgb(46, 56, 70), rgb(5, 50, 109));
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 20px;
-}
-
-.flex-container button:hover {
-    box-shadow: 2px 2px 10px #302d2c;
+    /* height: 250px;
+    width: auto; */
+    transform: translate(10px);
 }
 
 .junior-flex {
@@ -195,7 +190,30 @@ html {
     height: 30px;
     line-height: 30px;
     border-radius: 11px;
+}
 
+.advance {
+    background-color: orange;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 11px;
+    width: 150px;
+}
+
+.newbie {
+    background-color: rgb(47, 0, 255);
+    height: 30px;
+    line-height: 30px;
+    border-radius: 11px;
+    width: 100px;
+}
+
+.guru {
+    background-color: rgb(255, 0, 0);
+    height: 30px;
+    line-height: 30px;
+    border-radius: 11px;
+    width: 100px;
 }
 
 .html {
@@ -208,4 +226,125 @@ html {
 
 .js {
     color: rgb(222, 236, 20);
+}
+
+.select {
+    border-radius: none;
+}
+
+.contact {
+    height: 200px;
+    background-color: #192e47;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+    font-family: sans-serif;
+}
+
+#email {
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: none;
+}
+
+#request {
+    height: 30px;
+    width: 200px;
+    border-radius: 12px;
+    margin-left: 20px;
+    border: none;
+    background-color: white;
+    box-shadow: 2px 2px 2px gray;
+    font-weight: 500px;
+}
+
+.slack span {
+    font-size: 30px;
+    padding: 10px;
+    font-weight: 700px;
+}
+
+.slack i {
+    font-size: 30px;
+
+}
+
+#join {
+    font-size: 15px;
+    color: aqua;
+}
+
+.footer1 {
+    height: 300px;
+    background-color: rgb(241, 243, 245);
+}
+
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;
+    background-color: #9a9ca0;
+}
+
+#socialMedia {
+    font-size: 30px;
+    width: 200px;
+    display: flex;
+    justify-content: space-around;
+    color: blue;
+    cursor: pointer;
+
+}
+
+.footerGrid {
+    background-color: #9a9ca0;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 1px;
+    height: 200px;
+    font-size: 20px;
+
+}
+
+.grid-item1 {
+    grid-column: 1/span 3;
+    padding-left: 20px;
+    /* font-weight: 800px; */
+}
+
+.grid-item2 {
+    font-weight: 800px;
+}
+
+/* .grid-item2 p{
+    font-size: 18px;
+    font-weight: 100px;
+    font-family: sans-serif;
+} */
+
+#email2 {
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+}
+
+#subscribe {
+    background-color: red;
+    height: 30px;
+    width: 150;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-style: italic;
+
+}
+
+.footerGrid p {
+    font-size: 18px;
+    font-weight: 100px;
+    font-family: sans-serif;
+    cursor: pointer;
 }
