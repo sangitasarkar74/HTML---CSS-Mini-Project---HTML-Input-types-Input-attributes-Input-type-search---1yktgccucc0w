@@ -33,29 +33,28 @@ header {
     display: flex;
     justify-content: space-between;
     height: 60px;
-
     line-height: 60px;
     background: linear-gradient(30deg, #192e47, rgb(113, 134, 151));
-
     color: rgb(247, 246, 248);
     padding-top: 10px;
-    padding-left: 120px;
+    padding-left: 5%;
     padding-bottom: 10px;
 }
 
 .logo {
     color: red;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 .section1-part {
     width: 80%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     font-size: 12px;
     height: 60px;
     line-height: 60px;
     cursor: pointer;
+    text-align: center;
 }
 
 .button {
@@ -64,7 +63,7 @@ header {
     background-color: black;
     border-radius: 20px;
     color: aliceblue;
-
+    m
 }
 
 .flex-container {
@@ -427,6 +426,14 @@ header {
 
     .select-buttons {
         font-size: 10px;
+    }
+
+    .section1 {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 10px;
+        padding-left: 0px;
+        padding-bottom: 10px;
     }
 
 
