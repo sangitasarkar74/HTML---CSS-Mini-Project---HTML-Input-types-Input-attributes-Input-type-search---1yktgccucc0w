@@ -2,10 +2,22 @@ body,
 html {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+/* header {
+    width: 90%;
+    max-width: 1180px;
+    padding: 0 10px;
+    margin: 0 auto;
+} */
+header {
+    width: 100%;
 }
 
 .header-class {
     height: 50px;
+    width: 100%;
     background-color: rgb(11, 41, 66);
     color: white;
     text-align: center;
@@ -20,9 +32,10 @@ html {
     display: flex;
     justify-content: space-between;
     height: 60px;
+
     line-height: 60px;
     background: linear-gradient(30deg, #192e47, rgb(113, 134, 151));
-    font-size: 25px;
+
     color: rgb(247, 246, 248);
     padding-top: 10px;
     padding-left: 120px;
@@ -31,23 +44,33 @@ html {
 
 .logo {
     color: red;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .section1-part {
-    width: 800px;
+    width: 80%;
     display: flex;
     justify-content: space-around;
-    font-size: 18px;
+    font-size: 12px;
     height: 60px;
     line-height: 60px;
     cursor: pointer;
 }
 
+.button {
+    /* height: 40%; */
+    width: 90%;
+    background-color: black;
+    border-radius: 20px;
+    color: aliceblue;
+
+}
+
 .flex-container {
+    width: 100%;
     display: flex;
     justify-content: space-between;
-    height: 70px;
+    height: 50px;
     line-height: 70px;
     background: linear-gradient(30deg, #353f53, rgb(104, 129, 150));
 }
@@ -62,12 +85,11 @@ html {
 
 .flex-container button:hover {
     box-shadow: 2px 2px 10px #302d2c;
-
 }
 
 .select-buttons {
     background-color: rgb(78, 103, 131);
-    width: 200px;
+    width: 40%;
     color: white;
     font-size: 20px;
     text-align: center;
@@ -75,7 +97,7 @@ html {
 }
 
 .item1 {
-    width: 200px;
+    width: 20%;
     text-align: center;
     margin-left: 30px;
 }
@@ -83,7 +105,7 @@ html {
 .item2 {
     display: flex;
     justify-content: space-evenly;
-    width: 300px;
+    width: 30%;
     margin-right: 25px;
     text-align: center;
 }
@@ -91,8 +113,8 @@ html {
 .main {
     background-color: rgb(203, 212, 212);
     border-radius: 11px;
-    width: 1230px;
-    height: 900px;
+    width: 90%;
+    height: 100%;
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
@@ -103,44 +125,36 @@ html {
 }
 
 .grid-item {
-    font-size: 50px;
-    width: 350px;
-    height: 400px;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 80%;
 }
 
 .grid-part1 {
     background-color: rgb(228, 235, 241);
-    height: 250px;
+    /* height: 250px; */
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 }
 
 .grid-part2 {
     background-color: rgb(28, 69, 105);
-    height: 150px;
+    height: 100%;
     border-bottom-left-radius: 12px;
     border-bottom-right-radius: 12px;
-    font-size: 25px;
+    font-size: 20px;
     color: aliceblue;
     text-align: center;
-
-}
-
-.button {
-    height: 40px;
-    width: 250px;
-    background-color: black;
-    border-radius: 20px;
-    color: aliceblue;
-
+    margin-bottom: 20px;
 }
 
 .grid-part1 img {
-    height: 240px;
-    width: auto;
+    height: auto;
+    width: 90%;
     /* margin-left: 10px; */
     padding: auto;
-
+    margin-left: 10px;
 }
 
 .grid-part1 img:hover {
@@ -157,22 +171,27 @@ html {
 }
 
 .grid-part2-content {
-    font-size: 12px;
+    font-size: 10px;
     color: white;
     font-family: sans-serif;
     padding-left: 20px;
     padding-right: 20px;
+    margin-top: 0px;
+}
+
+.grid-part2-content p {
+    margin-top: 3px;
 }
 
 .junior-flex {
-    font-size: 20px;
-    padding-top: 10px;
+    font-size: 10px;
+    padding-top: 5px;
 }
 
 .grid-part2 a {
     color: white;
     font-family: sans-serif;
-    font-size: 20px;
+    font-size: 10px;
     text-decoration: none;
 }
 
@@ -185,33 +204,33 @@ html {
 }
 
 .junior {
-    width: 100px;
+    width: 80px;
     background-color: green;
-    height: 30px;
-    line-height: 30px;
+    height: 20px;
+    line-height: 20px;
     border-radius: 11px;
 }
 
 .advance {
     background-color: orange;
-    height: 30px;
-    line-height: 30px;
+    height: 20px;
+    line-height: 20px;
     border-radius: 11px;
-    width: 150px;
+    width: 80px;
 }
 
 .newbie {
     background-color: rgb(47, 0, 255);
-    height: 30px;
-    line-height: 30px;
+    height: 20px;
+    line-height: 20px;
     border-radius: 11px;
     width: 100px;
 }
 
 .guru {
     background-color: rgb(255, 0, 0);
-    height: 30px;
-    line-height: 30px;
+    height: 20px;
+    line-height: 20px;
     border-radius: 11px;
     width: 100px;
 }
@@ -347,4 +366,67 @@ html {
     font-weight: 100px;
     font-family: sans-serif;
     cursor: pointer;
+}
+
+@media only screen and (max-width:700px) {
+    .main {
+        display: grid;
+        grid-template-columns: auto;
+        height: 3000px;
+    }
+
+    #email {
+        width: 150px;
+    }
+
+    .join {
+        margin: 10px;
+    }
+
+    .footerGrid p {
+        font-size: 10px;
+        font-weight: 100px;
+        font-family: sans-serif;
+        cursor: pointer;
+    }
+
+    .footerGrid {
+        background-color: #9a9ca0;
+        display: grid;
+        grid-template-columns: auto auto auto auto auto auto auto;
+        grid-gap: 1px;
+        height: 200px;
+        font-size: 10px;
+    }
+
+    #email2 {
+        width: 100px;
+        height: 20px;
+    }
+
+
+
+    .section1 {
+        font-size: 8px;
+        justify-content: space-evenly;
+        padding-left: 10px;
+    }
+
+    .logo {
+        font-size: 10px;
+    }
+
+    .section1-part {
+        font-size: 10px;
+    }
+
+    .flex-container button {
+        font-size: 10px;
+    }
+
+    .select-buttons {
+        font-size: 10px;
+    }
+
+
 }
