@@ -1,9 +1,9 @@
 body,
 html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    /* heigit 100vh; */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* heigit 100vh; */
 }
 
 /* header {
@@ -13,328 +13,318 @@ html {
     margin: 0 auto;
 } */
 header {
-    width: 100%;
+  width: 100%;
 }
 
 .header-class {
-    height: 50px;
-    width: 100%;
-    background-color: rgb(11, 41, 66);
-    color: white;
-    text-align: center;
-    padding-top: 20px;
+  height: 50px;
+  width: 100%;
+  background-color: rgb(11, 41, 66);
+  color: white;
+  text-align: center;
+  padding-top: 20px;
 }
 
 #visit {
-    color: white;
+  color: white;
 }
 
 .section1 {
-    display: flex;
-    justify-content: space-between;
-    height: 60px;
-    line-height: 60px;
-    background: linear-gradient(30deg, #192e47, rgb(113, 134, 151));
-    color: rgb(247, 246, 248);
-    padding-top: 10px;
-    padding-left: 5%;
-    padding-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: linear-gradient(30deg, #192e47, rgb(113, 134, 151));
+  color: rgb(247, 246, 248);
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-bottom: 10px;
 }
 
 .logo {
-    color: red;
-    font-size: 15px;
+  color: red;
+  font-size: 15px;
 }
 
 .section1-part {
-    width: 80%;
-    display: flex;
-    justify-content: space-evenly;
-    font-size: 12px;
-    height: 60px;
-    line-height: 60px;
-    cursor: pointer;
-    text-align: center;
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  align-items: center;
+  cursor: pointer;
+  text-align: center;
 }
 
-.button {
-    /* height: 40%; */
-    width: 90%;
-    background-color: black;
-    border-radius: 20px;
-    color: aliceblue;
-    m
+.button { 
+  width: 90%;
+  background-color: black;
+  border-radius: 20px;
+  color: aliceblue;
 }
 
 .flex-container {
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    height: 50px;
-    line-height: 70px;
-    background: linear-gradient(30deg, #353f53, rgb(104, 129, 150));
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  line-height: 70px;
+  background: linear-gradient(30deg, #353f53, rgb(104, 129, 150));
 }
 
 .flex-container button {
-    background-color: rgb(78, 103, 131);
-    cursor: pointer;
-    border: none;
-    color: white;
-    font-size: 20px;
+  background-color: rgb(78, 103, 131);
+  cursor: pointer;
+  border: none;
+  color: white;
+  font-size: 20px;
 }
 
 .flex-container button:hover {
-    box-shadow: 2px 2px 10px #302d2c;
+  box-shadow: 2px 2px 10px #302d2c;
 }
 
 .select-buttons {
-    background-color: rgb(78, 103, 131);
-    width: 40%;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    border: none;
+  background-color: rgb(78, 103, 131);
+  width: 40%;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  border: none;
 }
 
 .item1 {
-    width: 20%;
-    text-align: center;
-    margin-left: 30px;
+  width: 20%;
+  text-align: center;
+  margin-left: 30px;
 }
 
 .item2 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 30%;
-    margin-right: 25px;
-    text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  width: 30%;
+  margin-right: 25px;
+  text-align: center;
 }
 
 .main {
-    background-color: rgb(203, 212, 212);
-    border-radius: 11px;
-    width: 90%;
-    height: 100%;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding: 40px;
-    justify-items: center;
+  background-color: rgb(203, 212, 212);
+  border-radius: 11px;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 40px;
+  justify-items: center;
 }
 
 .grid-item {
-    display: flex;
-    flex-direction: column;
-    width: 70%;
-    height: 80%;
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+  height: 80%;
 }
 
 .grid-part1 {
-    background-color: rgb(228, 235, 241);
-    /* height: 250px; */
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+  background-color: rgb(228, 235, 241);
+  /* height: 250px; */
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
 .grid-part2 {
-    background-color: rgb(28, 69, 105);
-    height: 100%;
-    border-bottom-left-radius: 12px;
-    border-bottom-right-radius: 12px;
-    font-size: 20px;
-    color: aliceblue;
-    text-align: center;
-    margin-bottom: 20px;
+  background-color: rgb(28, 69, 105);
+  height: 100%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  font-size: 20px;
+  color: aliceblue;
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .grid-part1 img {
-    height: auto;
-    width: 90%;
-    /* margin-left: 10px; */
-    padding: auto;
-    margin-left: 10px;
+  height: auto;
+  width: 90%;
+  /* margin-left: 10px; */
+  padding: auto;
+  margin-left: 10px;
 }
 
 .grid-part1 img:hover {
-    box-shadow: 2px 2px 10px #302d2c;
-    cursor: pointer;
-    /* height: 250px;
+  box-shadow: 2px 2px 10px #302d2c;
+  cursor: pointer;
+  /* height: 250px;
     width: auto; */
-    transform: translate(10px);
-}
-
-.junior-flex {
-    display: flex;
-    justify-content: space-evenly;
+  transform: translate(10px);
 }
 
 .grid-part2-content {
-    font-size: 10px;
-    color: white;
-    font-family: sans-serif;
-    padding-left: 20px;
-    padding-right: 20px;
-    margin-top: 0px;
+  font-size: 10px;
+  color: white;
+  font-family: sans-serif;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 0px;
 }
 
 .grid-part2-content p {
-    margin-top: 3px;
+  margin-top: 3px;
 }
 
 .junior-flex {
-    font-size: 10px;
-    padding-top: 5px;
+  font-size: 10px;
+  padding-top: 5px;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .grid-part2 a {
-    color: white;
-    font-family: sans-serif;
-    font-size: 10px;
-    text-decoration: none;
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+  text-decoration: none;
 }
 
 .grid-part2 a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 .a-tag {
-    padding-top: 5px;
+  padding-top: 5px;
 }
 
 .junior {
-    width: 80px;
-    background-color: green;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 11px;
+  width: 80px;
+  background-color: green;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 11px;
 }
 
 .advance {
-    background-color: orange;
-    height: 20px;
-    line-height: 20px;
-    border-radius: 11px;
-    width: 80px;
+  background-color: orange;
+  height: 20px;
+  line-height: 20px;
+  border-radius: 11px;
+  width: 80px;
 }
 
 .newbie {
-    background-color: rgb(47, 0, 255);
-    height: 20px;
-    line-height: 20px;
-    border-radius: 11px;
-    width: 100px;
+  background-color: rgb(47, 0, 255);
+  height: 20px;
+  line-height: 20px;
+  border-radius: 11px;
+  width: 100px;
 }
 
 .guru {
-    background-color: rgb(255, 0, 0);
-    height: 20px;
-    line-height: 20px;
-    border-radius: 11px;
-    width: 100px;
+  background-color: rgb(255, 0, 0);
+  height: 20px;
+  line-height: 20px;
+  border-radius: 11px;
+  width: 100px;
 }
 
 .html {
-    color: aqua;
+  color: aqua;
 }
 
 .css {
-    color: rgb(247, 145, 62);
+  color: rgb(247, 145, 62);
 }
 
 .js {
-    color: rgb(222, 236, 20);
+  color: rgb(222, 236, 20);
 }
 
 .select {
-    border-radius: none;
+  border-radius: none;
 }
 
 .contact {
-    height: 200px;
-    background-color: #192e47;
-    margin: auto;
-    text-align: center;
-    padding-top: 50px;
-    color: white;
-    font-family: sans-serif;
+  height: 200px;
+  background-color: #192e47;
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+  color: white;
+  font-family: sans-serif;
 }
 
 #email {
-    height: 30px;
-    width: 300px;
-    border-radius: 5px;
-    border: none;
+  height: 30px;
+  width: 300px;
+  border-radius: 5px;
+  border: none;
 }
 
 #request {
-    height: 30px;
-    width: 200px;
-    border-radius: 12px;
-    margin-left: 20px;
-    border: none;
-    background-color: white;
-    box-shadow: 2px 2px 2px gray;
-    font-weight: 500px;
+  height: 30px;
+  width: 200px;
+  border-radius: 12px;
+  margin-left: 20px;
+  border: none;
+  background-color: white;
+  box-shadow: 2px 2px 2px gray;
+  font-weight: 500px;
 }
 
 .slack span {
-    font-size: 30px;
-    padding: 10px;
-    font-weight: 700px;
+  font-size: 30px;
+  padding: 10px;
+  font-weight: 700px;
 }
 
 .slack i {
-    font-size: 30px;
-
+  font-size: 30px;
 }
 
 #join {
-    font-size: 15px;
-    color: aqua;
+  font-size: 15px;
+  color: aqua;
 }
 
 .footer1 {
-    height: 300px;
-    background-color: rgb(241, 243, 245);
+  height: 300px;
+  background-color: rgb(241, 243, 245);
 }
 
 .footer-flex {
-    display: flex;
-    justify-content: space-between;
-    padding: 30px;
-    background-color: #9a9ca0;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: #9a9ca0;
 }
 
 #socialMedia {
-    font-size: 30px;
-    width: 200px;
-    display: flex;
-    justify-content: space-around;
-    color: blue;
-    cursor: pointer;
-
+  font-size: 30px;
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  color: blue;
+  cursor: pointer;
 }
 
 .footerGrid {
-    background-color: #9a9ca0;
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto auto;
-    grid-gap: 1px;
-    height: 200px;
-    font-size: 20px;
-
+  
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto;
+  grid-gap: 1px;
+  height: 200px;
+  font-size: 20px;
 }
 
 .grid-item1 {
-    grid-column: 1/span 3;
-    padding-left: 20px;
-    /* font-weight: 800px; */
+  grid-column: 1 / span 3;
+  padding-left: 20px;
+  /* font-weight: 800px; */
 }
 
 .grid-item2 {
-    font-weight: 800px;
+  font-weight: 800px;
 }
 
 /* .grid-item2 p{
@@ -344,97 +334,129 @@ header {
 } */
 
 #email2 {
-    height: 30px;
-    width: 200px;
-    border-radius: 5px;
-    border: none;
+  height: 30px;
+  width: 200px;
+  border-radius: 5px;
+  border: none;
 }
 
 #subscribe {
-    background-color: red;
-    height: 30px;
-    width: 150;
-    border: none;
-    border-radius: 5px;
-    color: white;
-    font-style: italic;
-
+  background-color: red;
+  height: 30px;
+  width: 150;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-style: italic;
 }
 
 .footerGrid p {
-    font-size: 18px;
+  font-size: 18px;
+  font-weight: 100px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 700px) {
+  .main {
+    display: grid;
+    grid-template-columns: auto;
+    height: 3000px;
+    width: 80%;
+  }
+
+  #email {
+    width: 150px;
+  }
+
+  .join {
+    margin: 10px;
+  }
+
+  .footerGrid p {
+    font-size: 10px;
     font-weight: 100px;
     font-family: sans-serif;
     cursor: pointer;
+  }
+
+  .footerGrid {
+    background-color: #aaa9a7;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto auto;
+    grid-gap: 1px;
+    height: 200px;
+    font-size: 10px;
+  }
+
+  #email2 {
+    width: 100px;
+    height: 20px;
+  }
+
+  .logo {
+    font-size: 10px;
+  }
+
+  .section1 {
+    flex-direction: column;
+    text-align: center;
+    height: 10%;
+  }
+
+  .flex-container button {
+    font-size: 10px;
+  }
+
+  .select-buttons {
+    font-size: 10px;
+  }
+
+  .section1-part {
+    width: 100%;
+    font-size: 8px;
+    cursor: pointer;
+    text-align: center;
+  }
+  .grid-item {
+    width: 80%;
+    height: 90%;
+    margin: auto;
+  }
+  .grid-part2 p {
+    font-size: 20px;
+  }
+  .grid-part2 a {
+    font-size: 20px;
+  }
+  .junior-flex {
+    font-size: 20px;
+    padding: 10px;
+  }
+  .button{
+    font-size: 8px;
+  }
+}
+@media screen and (max-width: 480px) {
+
+  .footerGrid {   
+    display: block;
+    grid-template-columns: auto;
+    height: 600px;
+    width: 100%;
+    text-align: center;
+  }
+  .grid-item1{   
+    padding: 20px;
+  }
+  .grid-item2{
+    padding: 20px;
+  }
+  .contact{
+    height: 300px;
+  }
+  #request{
+margin: 20px;
+  }
 }
 
-@media only screen and (max-width:700px) {
-    .main {
-        display: grid;
-        grid-template-columns: auto;
-        height: 3000px;
-    }
-
-    #email {
-        width: 150px;
-    }
-
-    .join {
-        margin: 10px;
-    }
-
-    .footerGrid p {
-        font-size: 10px;
-        font-weight: 100px;
-        font-family: sans-serif;
-        cursor: pointer;
-    }
-
-    .footerGrid {
-        background-color: #9a9ca0;
-        display: grid;
-        grid-template-columns: auto auto auto auto auto auto auto;
-        grid-gap: 1px;
-        height: 200px;
-        font-size: 10px;
-    }
-
-    #email2 {
-        width: 100px;
-        height: 20px;
-    }
-
-
-
-    .section1 {
-        font-size: 8px;
-        justify-content: space-evenly;
-        padding-left: 10px;
-    }
-
-    .logo {
-        font-size: 10px;
-    }
-
-    .section1-part {
-        font-size: 10px;
-    }
-
-    .flex-container button {
-        font-size: 10px;
-    }
-
-    .select-buttons {
-        font-size: 10px;
-    }
-
-    .section1 {
-        display: flex;
-        justify-content: space-evenly;
-        padding-top: 10px;
-        padding-left: 0px;
-        padding-bottom: 10px;
-    }
-
-
-}
